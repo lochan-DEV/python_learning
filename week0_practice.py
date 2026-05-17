@@ -15,3 +15,16 @@ age=input("what is your age?")
 print(f"you are {age}  years old")
 
 
+# pracice using def function
+def hello(x):
+    print("hello", x)
+name=input("enter your name:")
+hello(name)
+
+# using def function    
+def sum(x,y):
+    return x+y
+b=int(input("enter first number:"))
+a=int(input("enter the second number:"))
+result=sum(b,a)
+print("the sum is:", result)
