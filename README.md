@@ -7,8 +7,9 @@ learn Python and master the basics  before college starts and build
 a strong GitHub profile!
 
 ##  Progress
-- [✅] Week 0 - Functions & Variables 
-- [✅] Week 2 - Loops
+- [✅] Week 0 - Functions & Variables
+- [✅] week 1 - conditions
+- [ ] Week 2 - Loops
 - [ ] Week 3 - Exceptions
 - [ ] Week 4 - Libraries
 - [ ] Week 5 - Unit Tests
@@ -19,8 +20,8 @@ a strong GitHub profile!
 - [ ] Final Project
 
 ##  CS50P Submissions
-- [x] Week 0 - All 5 problems submitted ✅
-- [x] week 1 - all 5 problems submitted ✅
+-  Week 0 - All 5 problems submitted ✅
+-  week 1 - all 5 problems submitted ✅
 
 ##  Tools
 - Python 3.12
