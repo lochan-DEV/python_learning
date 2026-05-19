@@ -1,15 +1,14 @@
-# 🐍 Python Learning Journey
+#  Python Learning Journey
 
 My Python learning journey using CS50P Harvard course.
 
-## 🎯 Goal
-Master Python before college starts and build 
+##  Goal
+learn Python and master the basics  before college starts and build 
 a strong GitHub profile!
 
-## 📚 Progress
-- [x] Week 0 - Functions & Variables ✅
-- [ ] Week 1 - Conditionals
-- [ ] Week 2 - Loops
+##  Progress
+- [✅] Week 0 - Functions & Variables 
+- [✅] Week 2 - Loops
 - [ ] Week 3 - Exceptions
 - [ ] Week 4 - Libraries
 - [ ] Week 5 - Unit Tests
@@ -19,11 +18,15 @@ a strong GitHub profile!
 - [ ] Week 9 - Et Cetera
 - [ ] Final Project
 
-## 🏆 CS50P Submissions
+##  CS50P Submissions
 - [x] Week 0 - All 5 problems submitted ✅
+- [x] week 1 - all 5 problems submitted ✅
 
-## 🛠️ Tools
+##  Tools
 - Python 3.12
 - VS Code
 - Git & GitHub
 - CS50P Harvard Course
+
+##  Current Status
+Finished 2nd PUC [class 12] and currently preparing during the gap before joining college.
