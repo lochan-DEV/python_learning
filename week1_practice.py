@@ -10,3 +10,28 @@ elif 60<=x<70:
     print("D grade")
 else:
     print("fail")
+
+
+
+
+#practice problem 2:
+x=float(input("enter the number: "))
+if x>0:
+    print(f"the given number {x} is positive")
+elif x<0:
+    print(f"the given number {x} is negative")
+else:
+    print(f"the given number {x} is zero")
+
+
+#practice problem 3:
+x=float(input("enter the number: "))
+y=float(input("enter the number: "))
+if x>y:
+    print(f"{x} is greater than {y}")
+elif x<y:
+    print(f"{y} is greater than {x}")
+else:
+    print(f"{x} and {y} are equal")
+
+
