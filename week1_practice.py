@@ -35,3 +35,15 @@ else:
     print(f"{x} and {y} are equal")
 
 
+#practice problem 4: comparing three numbers
+x=float(input("enter the number: "))
+y=float(input("enter the number: "))
+z=float(input("enter the number: "))
+if x>y and X>z:
+    print(f"{x} is the greatest number")
+elif y>x and y>z:
+    print(f"{y} is the greatest number")
+elif z>x and z>y:
+    print(f"{z} is the greatest number")
+else:
+    print("all numbers are equal")
