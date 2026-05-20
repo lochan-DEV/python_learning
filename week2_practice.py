@@ -14,3 +14,11 @@ while True:
     else: 
         print("wrong password stranger")
         x=input("enter the password: ")
+
+
+
+
+#coding using the list data structure
+names=["lochan", "sathya", "kishore"]
+for name in names:
+    print(name , sep="\n")
