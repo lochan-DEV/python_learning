@@ -8,3 +8,17 @@ for c in x:
     else:
         result=result+c
 print("snake_case :", result)
+
+
+
+#problem 2
+amount_due=50
+while amount_due>0:
+    print("amount_due :", amount_due)
+    x=int(input("Insert Coin: "))
+    if x in [25,10,5]:
+        amount_due=amount_due-x
+    else:
+        print("hey fool wrong coin")
+
+print("change_owed :", abs(amount_due))
