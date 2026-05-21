@@ -8,8 +8,8 @@ a strong GitHub profile!
 
 ##  Progress
 - [✅] Week 0 - Functions & Variables
-- [✅] week 1 - conditions
-- [ ] Week 2 - Loops
+- [✅] week 1 - conditions 
+- [✅] Week 2 - Loops
 - [ ] Week 3 - Exceptions
 - [ ] Week 4 - Libraries
 - [ ] Week 5 - Unit Tests
@@ -20,8 +20,9 @@ a strong GitHub profile!
 - [ ] Final Project
 
 ##  CS50P Submissions
--  Week 0 - All 5 problems submitted ✅
--  week 1 - all 5 problems submitted ✅
+- [x] Week 0 - All 5 problems submitted ✅
+- [x] week 1 - all 5 problems submitted ✅
+- [x] week 2 - all 5 problems submitted ✅
 
 ##  Tools
 - Python 3.12
@@ -30,4 +31,4 @@ a strong GitHub profile!
 - CS50P Harvard Course
 
 ##  Current Status
-Finished 2nd PUC [class 12] and currently preparing during the gap before joining college.
+Finished 2nd PUC [class 12]and currently preparing during the gap before joining college.
