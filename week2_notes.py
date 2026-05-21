@@ -25,3 +25,12 @@ student = {"name": "lochan", "age": 18}
 
 # LEN - counts length
 len(names)  # 3
+
+
+
+# day 2
+
+""" revised all concepts of day 1 and solved problems using the concepts 
+and practiced some code of my own to get more clarity on the concepts""" 
+
+#                           finished week 2 lecture
