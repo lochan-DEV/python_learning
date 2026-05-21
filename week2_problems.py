@@ -33,3 +33,29 @@ for c in x:
     if c not in vowels:
         result=result+c
 print("output :", result)
+
+
+
+#problem 4
+def main():
+    plates=input("enter the plate number :")
+    if is_valid(plates):
+        print("valid")
+    else:
+        print("invalid")
+def is_valid(x):
+    if len(x)<2 or len(x)>6 :
+        return False
+    if not x.isalnum():
+        return False
+    if not x[0:2].isalpha():
+        return False
+    for i in range(len(x)):
+        if x[i].isdigit():
+            if x[i]=="0":
+                return False
+            if not x[i:].isdigit():
+                return False
+            break
+    return True
+main()
