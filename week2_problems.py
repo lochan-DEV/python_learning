@@ -22,3 +22,14 @@ while amount_due>0:
         print("hey fool wrong coin")
 
 print("change_owed :", abs(amount_due))
+
+
+
+#problem 3
+vowels=["a","e","i","o","u","A","E","I","O","U"]
+x=input("enter a sentence :")
+result=""
+for c in x:
+    if c not in vowels:
+        result=result+c
+print("output :", result)
