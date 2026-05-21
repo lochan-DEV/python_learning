@@ -59,3 +59,15 @@ def is_valid(x):
             break
     return True
 main()
+
+
+
+#problem 5
+nutri={"apple":"130","banana":"110","chocolate":"","avocado":"50","kiwifruit":"90",
+       "pear":"100","sweet cherries":"100"}
+x=input("item :").strip().lower()
+if x in nutri:
+    print("calories :", nutri[x])
+else:
+    print("check youerself idiot ")
+   
