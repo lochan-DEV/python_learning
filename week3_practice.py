@@ -31,3 +31,13 @@ try:
 
 except ValueError:
     print("That's not a valid age!")
+
+
+
+#square and cube calculator with exception handling
+try:
+    num = int(input("Enter a number: "))
+    print(f"The square of {num} is {num ** 2} and the cube of {num} is {num ** 3} ")
+except ValueError:
+    print("That's not a valid number!")
+    
