@@ -30,9 +30,25 @@ concepts of week 0 to week 2 with some practice of decoding my own problems
                      
                      
                      
+# day 2 of week 3 lecture 
+
+#understood all the topics of week 3 lecture 
+
+#pass - "it is only used to satisfy the syntax of python when we want the code to do nothing"
+
+
+#raise - "it is used to manually raise an exception when a certain condition is met"
+
+
+
+
+
+
+
+
+
+"""
+
+
                      
-                     
-                     
-                     
-                                       """
             
