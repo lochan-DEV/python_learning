@@ -57,3 +57,21 @@ while True:
         break
     except x not in food:
         pass
+
+
+
+#problem 3
+dict={}
+while True:
+    try:
+        x=input()
+        if x in dict:
+            dict[x]=dict[x]+1
+        else:
+            dict[x]=1
+
+    except EOFError:
+        break
+
+for y in sorted(dict):
+    print(f"{dict[y]} {y.upper()}")
