@@ -75,3 +75,42 @@ while True:
 
 for y in sorted(dict):
     print(f"{dict[y]} {y.upper()}")
+
+
+
+
+# problem 4
+dict={
+    "January":1,
+    "February":2,
+    "March":3,
+    "April":4,
+    "May":5,
+    "June":6,
+    "July":7,
+    "August":8,
+    "September":9,
+    "October":10,
+    "November":11,
+    "December":12}
+while True:
+    x=input("date :").strip()
+
+    try:
+        if x[0].isdigit():
+            a,b,c=x.split("/")
+            if int(a)>12 or int(b)>31:
+                raise ValueError
+            print(f"{c}-{int(a):02}-{int(b):02}")
+            break
+        elif x[0].isalpha():
+            a,b,c=x.split(" ")
+            b=b.strip(",")
+            if a  not in dict or int(b)>31:
+                raise ValueError
+            elif "," not in x:
+                raise ValueError
+            print(f"{c}-{dict[a]:02}-{int(b):02}")
+            break
+    except (ValueError,KeyError):
+        pass
