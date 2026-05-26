@@ -28,3 +28,13 @@ if x in animals:
     animals[x]("hello")
 else:
     print("animal not found")
+
+
+
+
+# Shuffle a deck (simplified) ----
+import random
+cards = ["Ace", "King", "Queen", "Jack", "10"]
+print("Before shuffle:", cards)
+random.shuffle(cards)
+print("After shuffle :", cards)
