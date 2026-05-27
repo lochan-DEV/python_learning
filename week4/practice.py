@@ -38,3 +38,27 @@ cards = ["Ace", "King", "Queen", "Jack", "10"]
 print("Before shuffle:", cards)
 random.shuffle(cards)
 print("After shuffle :", cards)
+
+
+# rock, paper, scissors game --
+
+import random
+import sys
+
+choices = ["rock", "paper", "scissors"]
+if len(sys.argv) < 2:
+    sys.exit("Error: Please provide your choice. Example: python game.py rock")
+x= sys.argv[1].lower().strip()
+if x not in choices:
+    sys.exit("Error: Invalid choice. Choose rock, paper, or scissors.")
+y = random.choice(choices)
+print(f"Your choice:     {x}")
+print(f"Computer choice: {y}")
+if x == y:
+    print("It's a tie!")
+elif (x == "rock" and y == "scissors") or \
+     (x == "paper" and y == "rock") or \
+     (x == "scissors" and y == "paper"):
+    print("You win!")
+else:
+    print("Computer wins!")
