@@ -8,4 +8,8 @@
 #                   example:import random        # import whole module
 
 
+""" Command-Line Arguments - Command-line arguments are inputs provided to a program 
+                             when it is executed from the terminal. They allow users
+ to pass data directly at runtime instead of entering it during execution."""
+
 
