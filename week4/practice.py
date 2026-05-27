@@ -62,3 +62,28 @@ elif (x == "rock" and y == "scissors") or \
     print("You win!")
 else:
     print("Computer wins!")
+
+
+
+# coin flip --
+
+import random
+list = ["heads", "tails"]
+
+while True:
+    x= input("Bet heads or tails (or type 'quit' to stop): ").lower().strip()
+    if x=="quit":
+        print("Thanks for playing!")
+        break
+    if x not in list:
+        print("Invalid choice. Please type 'heads' or 'tails'.\n")
+        continue
+    coin_result = random.choice(list)
+    print("  Coin flip results")
+    print(f"Your Bet:    {x.capitalize()}")
+    print(f"Flip Result: {coin_result.capitalize()}")
+   
+    if x == coin_result:
+        print("You won the bet!")
+    else:
+        print(" You lost. Better luck next time!")
