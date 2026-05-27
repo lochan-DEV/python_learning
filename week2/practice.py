@@ -22,3 +22,29 @@ while True:
 names=["lochan", "sathya", "kishore"]
 for name in names:
     print(name , sep="\n")
+
+
+# password creation 
+def main():
+    x=password()
+    print("your password is: ", x)
+
+def password():
+   
+    while True:
+         x=input("enter password: ")
+         if len(x)!=6 or len(x)>6:
+             print("password must be 6 characters long")
+         elif x[0].islower():
+             print("password must start with a capital letter")
+         elif x[5].isalpha():
+             print("password must end with a number")
+         elif len(x)==4 or len(x)<4:
+                print("password must be 6 characters long")
+                continue
+         else:
+             break
+    return x
+if __name__ == "__main__":
+    main()
+
