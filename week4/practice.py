@@ -87,3 +87,17 @@ while True:
         print("You won the bet!")
     else:
         print(" You lost. Better luck next time!")
+
+
+# accepts user name in command line argument
+import sys
+
+if len(sys.argv)<2:
+    print("Too few arguments")
+    sys.exit(1)
+elif len(sys.argv)>2:
+    print("Too many arguments")
+    sys.exit(1)
+else:
+    print("hello", sys.argv[1])  
+    
