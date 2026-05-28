@@ -13,3 +13,9 @@
  to pass data directly at runtime instead of entering it during execution."""
 
 
+
+# day 2 of learning week 4 lecture
+
+# IndexError -  happens when you try to access an index that doesn't exist.
+# slicing - is a way to access a portion of a sequence (like a string, list, or tuple)
+
