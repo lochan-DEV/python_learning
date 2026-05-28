@@ -100,4 +100,33 @@ elif len(sys.argv)>2:
     sys.exit(1)
 else:
     print("hello", sys.argv[1])  
-    
+
+
+
+# simple calculator using command line arguments
+import sys
+
+a,b,c= sys.argv[1], sys.argv[2], sys.argv[3]
+a=int(a)
+c=int(c)
+if len(sys.argv)<4:
+    print("Too few arguments")
+    sys.exit(1)
+elif len(sys.argv)>4:
+    print("Too many arguments")
+    sys.exit(1)
+elif b=="+":
+    print(a+c)
+elif b=="-":
+    print(a-c)
+elif b=="*":
+    print(a*c)
+elif b=="/":
+    if c==0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    else:
+        print(a/c)
+   
+else:
+    print("Invalid operator. Please use +, -, *, or /.")
+
