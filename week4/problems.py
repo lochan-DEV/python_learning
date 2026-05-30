@@ -33,3 +33,34 @@ elif len(sys.argv)==3:
         figlet.setFont(font=sys.argv[2])
         x=input("input :")
         print(figlet.renderText(x))
+
+
+
+# problem 3
+import random
+
+while True:
+    try:
+        n = int(input("Level: "))
+        if n > 0:
+            break
+    except ValueError:
+        pass
+
+y = random.randint(1, n)
+
+while True:
+    try:
+        x = int(input("Guess: "))
+        if x < 1:
+            continue
+    except ValueError:
+        continue
+
+    if x == y:
+        print("Just right!")
+        break
+    elif x > y:
+        print("Too large!")
+    else:
+        print("Too small!")
