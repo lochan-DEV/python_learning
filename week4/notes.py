@@ -41,3 +41,10 @@ This is where it gets really cool. An API (Application Programming Interface) le
     print(response.text)   # London: ⛅ +15°C"""
 
 
+
+"""Quick Cheat Sheet
+    import random          → random numbers, choices, shuffles
+    import statistics      → mean, median, mode, stdev
+    import sys             → argv (CLI args), exit()
+    pip install requests   → install 3rd party library
+    import requests        → make HTTP requests / call APIs"""
