@@ -154,3 +154,30 @@ if not scores:
 print(f"Mean:   {statistics.mean(scores):.2f}")
 print(f"Median: {statistics.median(scores):.2f}")
 
+
+
+
+
+#wheather forecast
+import sys
+import requests
+
+if len(sys.argv) != 2:
+    sys.exit("Usage: python weather.py <city>")
+
+city = sys.argv[1]
+url = f"https://wttr.in/{city}?format=3"
+
+try:
+    response = requests.get(url)
+    response.raise_for_status()
+
+    # Check if response looks valid
+    if "Unknown location" in response.text or response.text.strip() == "":
+        sys.exit(f"City '{city}' not found.")
+
+    print(response.text)
+
+except requests.RequestException as e:
+    sys.exit(f"Error fetching weather: {e}")
+
