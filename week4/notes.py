@@ -19,3 +19,10 @@
 # IndexError -  happens when you try to access an index that doesn't exist.
 # slicing - is a way to access a portion of a sequence (like a string, list, or tuple)
 
+
+# day 3  
+""" revised all previous lectures topics and solved week 4 problems """
+
+
+
+
