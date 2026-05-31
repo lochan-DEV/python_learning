@@ -130,3 +130,27 @@ elif b=="/":
 else:
     print("Invalid operator. Please use +, -, *, or /.")
 
+
+
+# grade analyser
+import statistics
+import sys
+
+scores = []
+print("Enter scores one by one. Type 'done' when finished.")
+
+while True:
+    entry = input("Score: ")
+    if entry.lower() == "done":
+        break
+    try:
+        scores.append(float(entry))
+    except ValueError:
+        print("Invalid score, skipped.")
+
+if not scores:
+    sys.exit("No scores entered.")
+
+print(f"Mean:   {statistics.mean(scores):.2f}")
+print(f"Median: {statistics.median(scores):.2f}")
+
