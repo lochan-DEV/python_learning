@@ -47,3 +47,13 @@ elif z>x and z>y:
     print(f"{z} is the greatest number")
 else:
     print("all numbers are equal")
+
+
+# practice problem 5: mood check
+mood = int(input("Rate your mood 1-10: "))
+if mood >= 8:
+    print("You're thriving!")
+elif mood >= 5:
+    print("Mid day, it happens.")
+else:
+    print("Touch some grass bro.")
