@@ -11,7 +11,7 @@ a strong GitHub profile!
 - [✅] week 1 - conditions 
 - [✅] Week 2 - Loops
 - [✅] Week 3 - Exceptions
-- [ ] Week 4 - Libraries
+- [✅] Week 4 - Libraries
 - [ ] Week 5 - Unit Tests
 - [ ] Week 6 - File I/O
 - [ ] Week 7 - Regular Expressions
@@ -24,6 +24,7 @@ a strong GitHub profile!
 - [x] week 1 - all 5 problems submitted ✅
 - [x] week 2 - all 5 problems submitted ✅
 - [x] week 3 - all 4 problems submitted ✅
+- [x] week 4 - all 6 problems submitted ✅
 
 
 ##  Tools
