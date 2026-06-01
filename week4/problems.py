@@ -140,3 +140,23 @@ except requests.RequestException:
 
 total = n * price
 print(f"${total:,.4f}")
+
+
+
+
+# problem 6
+import inflect
+
+p = inflect.engine()
+
+names = []
+while True:
+    try:
+        name = input("name :")
+        names.append(name)
+    except EOFError:
+        print()
+        break
+
+print(f"Adieu, adieu, to {p.join(names)}")
+
