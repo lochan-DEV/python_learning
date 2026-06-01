@@ -48,3 +48,17 @@ def password():
 if __name__ == "__main__":
     main()
 
+
+
+# guessing game
+secret = 7
+while True:
+    guess = int(input("Guess a number 1-10: "))
+    if guess == secret:
+        print("You got it!")
+        break
+    elif guess < secret:
+        print("Too low!")
+    else:
+        print("Too high!")
+
