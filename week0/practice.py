@@ -28,3 +28,9 @@ b=int(input("enter first number:"))
 a=int(input("enter the second number:"))
 result=sum(b,a)
 print("the sum is:", result)
+
+
+# 
+name = input("Enter your name: ")
+print(f"Wow {name}, even my keyboard types better than you.")
+
