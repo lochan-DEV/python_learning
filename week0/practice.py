@@ -34,3 +34,9 @@ print("the sum is:", result)
 name = input("Enter your name: ")
 print(f"Wow {name}, even my keyboard types better than you.")
 
+
+# mars age calculator
+# 2. Space Age Calculator
+age = int(input("Your age on Earth: "))
+mars_age = round(age / 1.88, 2)
+print(f"On Mars you'd be {mars_age} years old!")
