@@ -57,3 +57,4 @@ elif mood >= 5:
     print("Mid day, it happens.")
 else:
     print("Touch some grass bro.")
+    
