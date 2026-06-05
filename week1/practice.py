@@ -39,7 +39,7 @@ else:
 x=float(input("enter the number: "))
 y=float(input("enter the number: "))
 z=float(input("enter the number: "))
-if x>y and X>z:
+if x>y and x>z:
     print(f"{x} is the greatest number")
 elif y>x and y>z:
     print(f"{y} is the greatest number")
@@ -57,4 +57,3 @@ elif mood >= 5:
     print("Mid day, it happens.")
 else:
     print("Touch some grass bro.")
-    
