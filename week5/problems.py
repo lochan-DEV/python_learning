@@ -45,4 +45,32 @@ def test_empty():
 #########################################################################################
 
 
+# problem 2 - testing the value function 
+
+def main():
+    x = input("Enter the sentence: ").strip()
+    result = value(x)
+    print("Output:", result)
+
+
+def value(x):
+    x = x.lower().strip()  
+
+    if x.startswith("hello"):
+        return "$0"
+    elif x.startswith("h"):
+        return "$20"
+    else:
+        return "$100"
+
+
+if __name__ == "__main__":
+    main()
+
+
+# to test the above function 
+
+
+
+
 
