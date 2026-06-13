@@ -181,3 +181,5 @@ try:
 except requests.RequestException as e:
     sys.exit(f"Error fetching weather: {e}")
 
+
+
