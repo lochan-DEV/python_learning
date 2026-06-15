@@ -12,7 +12,7 @@ a strong GitHub profile!
 - [✅] Week 2 - Loops
 - [✅] Week 3 - Exceptions
 - [✅] Week 4 - Libraries
-- [ ] Week 5 - Unit Tests
+- [✅] Week 5 - Unit Tests
 - [ ] Week 6 - File I/O
 - [ ] Week 7 - Regular Expressions
 - [ ] Week 8 - Object-Oriented Programming
@@ -25,6 +25,7 @@ a strong GitHub profile!
 - [x] week 2 - all 5 problems submitted ✅
 - [x] week 3 - all 4 problems submitted ✅
 - [x] week 4 - all 6 problems submitted ✅
+- [ ] week 5 - all 4 problems submitted ✅
 
 
 ##  Tools
