@@ -25,7 +25,7 @@ a strong GitHub profile!
 - [x] week 2 - all 5 problems submitted ✅
 - [x] week 3 - all 4 problems submitted ✅
 - [x] week 4 - all 6 problems submitted ✅
-- [ ] week 5 - all 4 problems submitted ✅
+- [X] week 5 - all 4 problems submitted ✅
 
 
 ##  Tools
