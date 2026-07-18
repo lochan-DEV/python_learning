@@ -122,3 +122,36 @@ if __name__ == "__main__":
 
 
 #############################################################################################
+
+# problem - 4 
+
+import sys
+from PIL import Image, ImageOps
+
+def check_len():
+    input_file=sys.argv[1]
+    output_file=sys.argv[2]
+    if len(sys.argv)==2:
+        sys.exit("Too few command-line arguments")
+    elif len(sys.argv)==4:
+        sys.exit("Too many command-line arguments")
+    elif not input_file.endswith((".jpg", ".jpeg", ".png")):
+        sys.exit("Invalid input")
+    elif not output_file.endswith((".jpg", ".jpeg", ".png")):
+        sys.exit("Invalid input")
+    elif input_file.split(".")[-1] != output_file.split(".")[-1]:
+        sys.exit("Input and output have different extensions")
+    else:
+        try:
+            input_image = Image.open(input_file)
+            shirt = Image.open("shirt.png")
+
+            input_image = ImageOps.fit(input_image, shirt.size)
+
+            input_image.paste(shirt, (0, 0), shirt)
+
+            input_image.save(output_file)
+
+        except FileNotFoundError:
+            sys.exit("Input does not exist")
+check_len()
