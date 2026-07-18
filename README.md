@@ -13,7 +13,7 @@ a strong GitHub profile!
 - [✅] Week 3 - Exceptions
 - [✅] Week 4 - Libraries
 - [✅] Week 5 - Unit Tests
-- [ ] Week 6 - File I/O
+- [✅] Week 6 - File I/O
 - [ ] Week 7 - Regular Expressions
 - [ ] Week 8 - Object-Oriented Programming
 - [ ] Week 9 - Et Cetera
@@ -26,7 +26,7 @@ a strong GitHub profile!
 - [x] week 3 - all 4 problems submitted ✅
 - [x] week 4 - all 6 problems submitted ✅
 - [x] week 5 - all 4 problems submitted ✅
-
+- [x] week 6 - all 4 problems submitted ✅
 
 ##  Tools
 - Python 3.12
