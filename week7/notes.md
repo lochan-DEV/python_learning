@@ -1,3 +1,11 @@
+Function	|Purpose
+re.match()	- Checks for a match only at the start of the string
+re.search()	- Scans the whole string, returns first match
+
+
+
+
+
 | Symbol           | Meaning                      
 | ---------------- | ---------------------------- 
 | `r""`            | Raw string                   
