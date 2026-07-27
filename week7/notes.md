@@ -4,6 +4,8 @@ re.search()	- Scans the whole string, returns first match
 re.findall() - Returns all matches as a list of strings
 re.finditer() - Returns an iterator of match objects (all matches)
 re.sub() - Replaces matches with a string
+re.split() - Splits string by the pattern
+re.fullmatch() - Entire string must match the pattern
 
 
 
