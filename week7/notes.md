@@ -1,7 +1,9 @@
 Function	|Purpose
 re.match()	- Checks for a match only at the start of the string
 re.search()	- Scans the whole string, returns first match
-
+re.findall() - Returns all matches as a list of strings
+re.finditer() - Returns an iterator of match objects (all matches)
+re.sub() - Replaces matches with a string
 
 
 
