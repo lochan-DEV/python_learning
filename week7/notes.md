@@ -33,3 +33,6 @@ re.fullmatch() - Entire string must match the pattern
 | `re.search()`    | Search anywhere              
 | `[]`             | character class
 | `[^]`            | negelated character class
+| `()`	           |Grouping
+| `\d`	           |Digit [0-9]
+| `\D`             |Non-digit
