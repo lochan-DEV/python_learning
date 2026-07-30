@@ -66,3 +66,10 @@ def convert(s):
     end = to_24hr(end_hour, end_min, end_period)
 
     return f"{start} to {end}"
+
+def to_24hr(hour, minute, period):
+    hour = int(hour)
+    minute = int(minute) if minute else 0
+
+    if not (1 <= hour <= 12):
+        raise ValueError("Invalid hour")
