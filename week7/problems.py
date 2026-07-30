@@ -54,3 +54,8 @@ import sys
 
 def main():
     print(convert(input("Hours: ")))
+
+def convert(s):
+    match = re.search(r"^(\d{1,2})(?::([0-5]\d))? (AM|PM) to (\d{1,2})(?::([0-5]\d))? (AM|PM)$", s)
+    if not match:
+        raise ValueError("Invalid format")
