@@ -59,3 +59,10 @@ def convert(s):
     match = re.search(r"^(\d{1,2})(?::([0-5]\d))? (AM|PM) to (\d{1,2})(?::([0-5]\d))? (AM|PM)$", s)
     if not match:
         raise ValueError("Invalid format")
+
+    start_hour, start_min, start_period, end_hour, end_min, end_period = match.groups()
+
+    start = to_24hr(start_hour, start_min, start_period)
+    end = to_24hr(end_hour, end_min, end_period)
+
+    return f"{start} to {end}"
