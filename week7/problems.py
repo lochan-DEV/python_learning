@@ -73,3 +73,9 @@ def to_24hr(hour, minute, period):
 
     if not (1 <= hour <= 12):
         raise ValueError("Invalid hour")
+    if period == "AM":
+        if hour == 12:
+            hour = 0
+    else:
+        if hour != 12:
+            hour += 12
