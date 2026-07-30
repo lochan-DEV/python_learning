@@ -79,3 +79,9 @@ def to_24hr(hour, minute, period):
     else:
         if hour != 12:
             hour += 12
+
+    return f"{hour:02}:{minute:02}"
+
+
+if __name__ == "__main__":
+    main()
