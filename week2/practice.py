@@ -63,4 +63,11 @@ while True:
         print("Too high!")
 
 # list compression
+books = [
+    {"title": "Atomic Habits", "year": 2018},
+    {"title": "1984", "year": 1949},
+    {"title": "Deep Work", "year": 2016},
+    {"title": "Sapiens", "year": 2011},
+]
+
 
