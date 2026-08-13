@@ -62,3 +62,5 @@ while True:
     else:
         print("Too high!")
 
+# list compression
+
