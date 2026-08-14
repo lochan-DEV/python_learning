@@ -7,3 +7,9 @@ books = [
 ]
 
 
+with open("books.csv","w") as f:
+    fieldnames=["title","author","year"]
+    writer=csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(books)
+
