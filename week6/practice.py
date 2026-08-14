@@ -1,1 +1,9 @@
 # practicing csv
+import csv
+books = [
+    {"title": "1984", "author": "Orwell", "year": 1949},
+    {"title": "Sapiens", "author": "Harari", "year": 2011},
+    {"title": "Dune", "author": "Herbert", "year": 1965},
+]
+
+
