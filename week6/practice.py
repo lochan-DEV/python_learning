@@ -13,3 +13,8 @@ with open("books.csv","w") as f:
     writer.writeheader()
     writer.writerows(books)
 
+
+with open("books.csv","r") as f:
+    read=csv.DictReader(f)
+    for row in read:
+        print(row)
