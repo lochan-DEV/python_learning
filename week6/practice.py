@@ -18,3 +18,15 @@ with open("books.csv","r") as f:
     read=csv.DictReader(f)
     for row in read:
         print(row)
+
+
+# storing a students record and accessing it for particular operations
+
+
+            
+
+
+    
+
+
+
