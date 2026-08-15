@@ -21,6 +21,44 @@ with open("books.csv","r") as f:
 
 
 # storing a students record and accessing it for particular operations
+students = [
+    {"name": "Ravi", "marks": 88, "grade": "A"},
+    {"name": "Meena", "marks": 45, "grade": "F"},
+    {"name": "Kiran", "marks": 76, "grade": "B"},
+]
+
+with open("stu.csv","w",newline="") as f:
+    x=["name","marks","grade"]
+    writer=csv.DictWriter(f, fieldnames=x)
+    writer.writeheader()
+    writer.writerows(students)
+
+with open("stu.csv","r") as f:
+    reader=csv.DictReader(f)
+    data=list(reader)
+    print(data)
+
+for row in data:
+    row["marks"]=int(row["marks"])
+
+top=max(data, key=lambda d: d["marks"])
+print(f"Topper name is  {top["name"]} scored {top["marks"]} marks ")
+
+for row in data:
+    if row["name"]=="Meena":
+        row["grade"]="repeat"
+
+
+with open("stu.csv","w",newline="") as f:
+    x=["name","marks","grade"]
+    writer=csv.DictWriter(f , fieldnames=x)
+    writer.writeheader()
+    writer.writerows(data)
+
+with open("stu.csv","r") as f:
+    reader=csv.DictReader(f)
+    data=list(reader)
+print(data)
 
 
             
