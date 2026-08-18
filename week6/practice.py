@@ -60,11 +60,40 @@ with open("stu.csv","r") as f:
     data=list(reader)
 print(data)
 
+print()
+print()
+print()
 
-            
+# practicing json
+import json
+
+books = [
+    {"title": "1984", "author": "Orwell", "year": 1949, "issued": False},
+    {"title": "Sapiens", "author": "Harari", "year": 2011, "issued": True},
+    {"title": "Dune", "author": "Herbert", "year": 1965, "issued": False},
+]
 
 
+with open("book.json","w") as f:
+    json.dump(books,f,indent=4)
+
+with open("book.json","r") as f:
+    data=json.load(f)
+    print(data)
+
+if type(data[2]["issued"])==bool:
+    print("yes it is correct")
+
+for row in data:
+    if row["title"]=="1984":
+        row["issued"]=True
+
+with open("book.json","w") as f:
+    json.dump(data,f,indent=4)
+
+
+with open("book.json","r") as f:
+    data=json.load(f)
+    for row in data:
+        print(row)
     
-
-
-
