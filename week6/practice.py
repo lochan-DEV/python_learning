@@ -60,9 +60,6 @@ with open("stu.csv","r") as f:
     data=list(reader)
 print(data)
 
-print()
-print()
-print()
 
 # practicing json
 import json
@@ -81,19 +78,3 @@ with open("book.json","r") as f:
     data=json.load(f)
     print(data)
 
-if type(data[2]["issued"])==bool:
-    print("yes it is correct")
-
-for row in data:
-    if row["title"]=="1984":
-        row["issued"]=True
-
-with open("book.json","w") as f:
-    json.dump(data,f,indent=4)
-
-
-with open("book.json","r") as f:
-    data=json.load(f)
-    for row in data:
-        print(row)
-    
