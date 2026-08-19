@@ -19,3 +19,25 @@ Data in files → remains saved
        It is a simple format used to store tabular data.
 
 
+# What is CSV?
+
+ CSV = Comma-Separated Values
+
+ It is a simple format used to store tabular data.
+
+Example books.csv:
+
+title,year
+1984,1949
+Atomic Habits,2018
+Deep Work,2016
+
+ Think of it like an Excel table:
+
+title	year
+1984	1949
+Atomic Habits	2018
+Deep Work	2016
+
+CSV is mainly useful when your data looks like rows and columns.
+
