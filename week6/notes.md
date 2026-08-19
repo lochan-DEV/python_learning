@@ -18,13 +18,6 @@ Data in files → remains saved
  CSV = Comma-Separated Values
        It is a simple format used to store tabular data.
 
-
-# What is CSV?
-
- CSV = Comma-Separated Values
-
- It is a simple format used to store tabular data.
-
 Example books.csv:
 
 title,year
@@ -40,4 +33,16 @@ Atomic Habits	2018
 Deep Work	2016
 
 CSV is mainly useful when your data looks like rows and columns.
+
+CSV module:
+Python provides a built-in csv module.
+
+import csv
+
+You don't need to install anything.
+
+Mode	Meaning
+"r"	Read
+"w"	Write/overwrite
+"a"	Append
 
