@@ -11,3 +11,11 @@ Data in files → remains saved
                     "r"  	   Read
                     "w" 	   Write (overwrites)
                     "a"	       Append (adds data at last or at the end of the file)
+
+
+# What is CSV?
+
+ CSV = Comma-Separated Values
+       It is a simple format used to store tabular data.
+
+
