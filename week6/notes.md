@@ -53,3 +53,9 @@ Mode	Meaning
 
 **JSON = JavaScript Object Notation**
 
+JSON is a text-based format used to **store and exchange structured data**.
+
+Example:
+
+```json
+{"title": "1984","year": 1949,"author": "George Orwell"}
