@@ -46,3 +46,10 @@ Mode	Meaning
 "w"	Write/overwrite
 "a"	Append
 
+
+# JSON File Handling in Python
+
+## 1. What is JSON?
+
+**JSON = JavaScript Object Notation**
+
