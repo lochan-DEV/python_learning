@@ -59,3 +59,11 @@ Example:
 
 ```json
 {"title": "1984","year": 1949,"author": "George Orwell"}
+
+
+| Function | Purpose | File involved? |
+|---|---|---|
+| `json.dump()` | Python → JSON | Yes |
+| `json.load()` | JSON → Python | Yes |
+| `json.dumps()` | Python → JSON string | No |
+| `json.loads()` | JSON string → Python | No |
