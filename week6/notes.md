@@ -87,3 +87,7 @@ Example:
 | Number | `10` | `int` | `10` |
 | Number | `10.5` | `float` | `10.5` |
 | Boolean | `true` | `bool` | `True` |
+| Boolean | `false` | `bool` | `False` |
+| Null | `null` | `NoneType` | `None` |
+| Object | `{}` | `dict` | `{}` |
+| Array | `[]` | `list` | `[]` |
