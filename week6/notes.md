@@ -70,4 +70,9 @@ Example:
 
 
 
- esay way to remember
+ esay way to remember:
+ dump  → file
+ load  → file
+
+ dumps → string
+ loads → string
