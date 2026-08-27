@@ -76,3 +76,14 @@ Example:
 
  dumps → string
  loads → string
+
+
+
+ ## JSON Data Types
+
+| JSON Data Type | JSON Example | Python Data Type | Python Example |
+|---|---|---|---|
+| String | `"hello"` | `str` | `"hello"` |
+| Number | `10` | `int` | `10` |
+| Number | `10.5` | `float` | `10.5` |
+| Boolean | `true` | `bool` | `True` |
