@@ -67,3 +67,7 @@ Example:
 | `json.load()` | JSON → Python | Yes |
 | `json.dumps()` | Python → JSON string | No |
 | `json.loads()` | JSON string → Python | No |
+
+
+
+ esay way to remember
