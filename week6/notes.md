@@ -90,7 +90,7 @@ Example:
 | Boolean | `false` | `bool` | `False` |
 | Null | `null` | `NoneType` | `None` |
 | Object | `{}` | `dict` | `{}` |
-| Array | `[]` | `list` | `[]` |
+| Array | `[]` | `list` | `[]` |```
 
 
 
