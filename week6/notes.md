@@ -91,3 +91,10 @@ Example:
 | Null | `null` | `NoneType` | `None` |
 | Object | `{}` | `dict` | `{}` |
 | Array | `[]` | `list` | `[]` |
+
+
+
+`indent` controls how `json.dumps()` / `json.dump()` format the output.
+
+By default, JSON is written as one long compact line. Adding `indent` pretty-prints it across multiple lines
+ with nested indentation — much easier to read/debug.
