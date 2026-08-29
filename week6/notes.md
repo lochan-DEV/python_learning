@@ -92,7 +92,8 @@ Example:
 | Object | `{}` | `dict` | `{}` |
 | Array | `[]` | `list` | `[]` |```
 
-
+---
+# Indent in json
 
 `indent` controls how `json.dumps()` / `json.dump()` format the output.
 
