@@ -78,3 +78,10 @@ print([x**2 for x in nums if x % 2 == 0])
 
 
 # check whether a number is prime or not
+
+def main():
+    x=int(input("enter a number : "))
+    for n in range(2,x):
+        if  x%n==0:
+            print("it is not  prime")
+            break
