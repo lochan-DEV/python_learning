@@ -85,3 +85,9 @@ def main():
         if  x%n==0:
             print("it is not  prime")
             break
+    else:
+        print("prime")
+
+            
+
+main()
