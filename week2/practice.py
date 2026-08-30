@@ -74,3 +74,7 @@ print([book["title"] for book in books if book["year"]>2015])
 # squaring numbers 
 nums=[8,2978,-1298,28,92,10,9]
 print([x**2 for x in nums if x % 2 == 0])
+
+
+
+# check whether a number is prime or not
