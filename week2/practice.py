@@ -96,3 +96,9 @@ main()
 
 # number of vowels and consonants are there in a sentence 
 
+word = input("Enter a word: ").strip().lower()
+
+vowels = 0
+consonants=0
+
+
