@@ -91,3 +91,8 @@ def main():
             
 
 main()
+
+
+
+# number of vowels and consonants are there in a sentence 
+
