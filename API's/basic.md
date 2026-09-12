@@ -5,3 +5,11 @@
 # where as we can convert the json to python object to use the info in most effficient way is
 
 - python_object=response.json()
+
+# HTTP Methods
+```
+GET - 	Read/fetch data
+POST - Create new data 
+PUT/PATCH - Replace/update existing data
+DELETE - Remove data
+```
