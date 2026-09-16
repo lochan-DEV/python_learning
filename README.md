@@ -3,8 +3,8 @@
 My Python learning journey using CS50P Harvard course.
 
 ##  Goal
-learn Python and master the basics  before college starts and build 
-a strong GitHub profile!
+learn Python and master the basics build 
+a strong GitHub profile
 
 ##  Progress
 - [✅] Week 0 - Functions & Variables
@@ -36,4 +36,4 @@ a strong GitHub profile!
 - CS50P Harvard Course
 
 ##  Current Status
-Finished 2nd PUC [class 12]and currently preparing during the gap before joining college.
+cse-AIML student in RNSIT engineering college [1st year]
