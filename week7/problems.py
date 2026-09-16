@@ -104,3 +104,25 @@ def count(s):
 
 if __name__ == "__main__":
     main()
+
+########################################################################################################################################
+
+# problem - 5
+
+import sys
+import validators
+
+
+def main():
+     print(response(input("ENTER email: ")))
+
+
+def response(email):
+      if validators.email(email):
+           return"Valid"
+      else:
+           return"Invalid"
+
+
+if __name__ == "__main__":
+       main()
