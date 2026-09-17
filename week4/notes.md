@@ -38,7 +38,7 @@ This is where it gets really cool. An API (Application Programming Interface) le
     import requests
     response = requests.get("https://wttr.in/London?format=3")
     response.raise_for_status()
-    print(response.text)   # London: ⛅ +15°C"""
+    print(response.text)   # London: +15°C"""
 
 
 
